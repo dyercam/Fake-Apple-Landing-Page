@@ -1,38 +1,109 @@
 .App {
   text-align: center;
+  padding-top: 70px;
+  padding-bottom: 170px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+* {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+ }
+button{
+  background-color: #0171e3;
+  color : white;
+  border-radius: 25px;
+  border: none;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  cursor: pointer;
+
 }
 
-.App-link {
-  color: #61dafb;
+
+.headBar{
+  background-color: #F5F5F7;
+  min-height: 90px;
+  display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title{
+  text-align: center;
+}
+
+.break{
+  padding-left: 20px;
+  padding-right: 20px;;
+}
+
+.topPanel{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.secondPanel{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.thirdPanel{
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+.fourthPanel{
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.fourthImages{
+  height: 140;
+  width: 20%;
+}
+.fifthPanel{
+  max-width: 75%;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+div{
+  outline: doted;
+}
+
+.short{
+  max-width: 25%;
+  max-height: 40%;
+}
+
+.lightGrey{
+background-color: #F5F5F7;
+}
+
+img{
+  width: 100%;
+  height: 100%;
 }

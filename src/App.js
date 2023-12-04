@@ -1,25 +1,33 @@
-import logo from './logo.svg';
+
+import React from 'react';
+import {BrowserRouter as Router, Route, Routes, useLocation} from "react-router-dom";
+import BuyPage from './buy.js';
+import MainPage from './mainPage.js';
+import ScrollToTop from './scroll.js'
 import './App.css';
 
+
+
+
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+  
+
+    return (
+      <>
+     <Router>
+      <ScrollToTop/>
+        <Routes>
+          <Route  path="/" element={<MainPage />}/>
+          <Route  path="/buy" element={<BuyPage/>} />
+        </Routes>
+     </Router>
+     </>
+    
+    )
 }
+
+
 
 export default App;

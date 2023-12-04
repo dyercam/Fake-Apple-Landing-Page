@@ -1,0 +1,61 @@
+.line{
+    border-top: solid black;
+}
+
+p{
+    outline: 1px solid;
+    opacity: .5;
+    width: 100%;
+}
+
+span{
+    font-size: 12px;
+}
+
+
+button{
+    background-color: #0171e3;
+    color : white;
+    border-radius: 25px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+.alignCol{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   flex-direction: column;
+}
+
+.align{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+.topHeader{
+    font-size: 100px;
+}
+
+.bigB{
+    width: 60px;
+    height: 38px;
+    font-size: 17.5px;
+    
+}
+
+.smallB{
+    width: 45px;
+    height: 25px;
+    font-size: 12px;
+}
+
+.subimage{
+    max-height: 40px;
+    max-width: 30px;
+}
